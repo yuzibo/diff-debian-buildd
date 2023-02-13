@@ -1,4 +1,4 @@
-This is a python demo to diff Debian buildd status between two build.
+This is a python demo to diff Debian buildd status between two buildd days.
 
 We still need to train it more.
 
@@ -7,7 +7,7 @@ We still need to train it more.
 
 ## 0
 
-Running `generate_data.py` to get the last buildd status json file and to store in `date/`
+Running `generate_data.py` to get the last buildd status json file and to store in `data/`
 
 ```python
 python3 generate_data.py
